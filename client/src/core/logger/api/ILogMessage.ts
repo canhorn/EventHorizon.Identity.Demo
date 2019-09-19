@@ -1,0 +1,5 @@
+export interface ILogMessage {
+  level: string;
+  message: string;
+  data: any;
+}
